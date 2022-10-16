@@ -1,0 +1,22 @@
+﻿<Window x:Class="korzina.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:korzina"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="487" Width="865">
+    <Grid Margin="0,10,0,0">
+        <Button Click="rooster_Click" x:Name="rooster" Margin="366,146,373,248">Рустем?</Button>
+        <TextBox x:Name="text1" Width="500" Margin="345,355,20,66"></TextBox>
+        <Label Name="list" HorizontalAlignment="Left" Margin="10,65,0,341">Список продуктов:</Label>
+        <Button Click="order_Click"   x:Name="order" Width="59" HorizontalAlignment="Left" Margin="0,399,0,10">Заказать</Button>
+        <Button Click="clear_Click"   x:Name="clear" Width="111" HorizontalAlignment="Left" Content="Очистить корзину" Margin="91,399,0,10"/>
+        <Button x:Name="go_back" Margin="10,10,680,389">Вернуться назад</Button>
+        <Button Click="product_Click" x:Name="product" Margin="345,10,345,389">Добавить продукт</Button>
+        <TextBlock HorizontalAlignment="Left"  x:Name="prod11" Margin="30,98,0,315" Width="425"></TextBlock>
+        <TextBlock Margin="267,355,525,70">Ваш адрес:</TextBlock>
+
+    </Grid>
+</Window>
